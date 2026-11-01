@@ -62,22 +62,6 @@ The percentages are honest estimates by the developers. They are updated with ev
 </details>
 <!-- PROGRESS:END -->
 
-## What already works in development builds
-
-- **Free drive:** Crash's kart on the original Earth1 track with the original driving physics and collision. No opponents, countdown or lap scoring yet.
-- **Track viewer:** explore the textured original track with a free camera.
-- **Intro and main menu:** the Alchemy intro, followed by a provisional PC menu.
-
-Free drive controls:
-
-| Action | Xbox controller | Keyboard |
-| --- | --- | --- |
-| Accelerate | RT | W / ↑ |
-| Brake / reverse | LT | S / ↓ |
-| Steer | Left stick | A, D / ←, → |
-| Reset kart | Start | R |
-| Quit | – | Esc |
-
 ## Source code
 
 The source code is not published yet. It will follow here as research into the game progresses. The port is built with CMake and Visual Studio 2022 for Windows 10/11 x64.
