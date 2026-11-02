@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="758" viewBox="0 0 600 758" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-label="Nitro-C progress: 28 percent">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="758" viewBox="0 0 600 758" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-label="Nitro-C progress: 34 percent">
 <rect x="0.5" y="0.5" width="599" height="757" rx="12" fill="#ffffff" stroke="#d0d7de"/>
 <text x="24" y="44" font-size="18" font-weight="600" fill="#1f2328" text-anchor="start">Nitro-C</text>
-<text x="576" y="44" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">Last updated: 2026-11-01</text>
+<text x="576" y="44" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">Last updated: 2026-11-02</text>
 <text x="24" y="84" font-size="14" font-weight="600" fill="#1f2328" text-anchor="start">Overall progress</text>
-<text x="576" y="84" font-size="14" font-weight="400" fill="#1f2328" text-anchor="end"><tspan font-weight="600">28 %</tspan></text>
-<rect x="24" y="94" width="552" height="8" rx="4" fill="#ddf4ff"/><rect x="24" y="94" width="154.6" height="8" rx="4" fill="#0969da"/>
+<text x="576" y="84" font-size="14" font-weight="400" fill="#1f2328" text-anchor="end"><tspan font-weight="600">34 %</tspan></text>
+<rect x="24" y="94" width="552" height="8" rx="4" fill="#ddf4ff"/><rect x="24" y="94" width="187.7" height="8" rx="4" fill="#0969da"/>
 <text x="24" y="134" font-size="14" font-weight="600" fill="#1f2328" text-anchor="start">Driving physics (goal: 1:1 with the original)</text>
-<text x="576" y="134" font-size="14" font-weight="400" fill="#1f2328" text-anchor="end"><tspan font-weight="600">62 %</tspan></text>
-<rect x="24" y="144" width="552" height="8" rx="4" fill="#ddf4ff"/><rect x="24" y="144" width="342.2" height="8" rx="4" fill="#0969da"/>
+<text x="576" y="134" font-size="14" font-weight="400" fill="#1f2328" text-anchor="end"><tspan font-weight="600">66 %</tspan></text>
+<rect x="24" y="144" width="552" height="8" rx="4" fill="#ddf4ff"/><rect x="24" y="144" width="364.3" height="8" rx="4" fill="#0969da"/>
 <line x1="24" y1="176" x2="576" y2="176" stroke="#d8dee4"/>
 <text x="24" y="206" font-size="14" font-weight="600" fill="#1f2328" text-anchor="start">Building blocks</text>
-<text x="576" y="206" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">0 done · 11 in progress · 6 planned</text>
+<text x="576" y="206" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">0 done · 12 in progress · 5 planned</text>
 <circle cx="32" cy="231.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 224.5 A7 7 0 0 1 32 238.5 Z" fill="#0969da"/>
 <text x="50" y="236" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">ISO import &amp; data extraction</text>
-<text x="576" y="236" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 85 %</text>
+<text x="576" y="236" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 90 %</text>
 <line x1="24" y1="247" x2="576" y2="247" stroke="#d8dee4"/>
 <circle cx="32" cy="261.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 254.5 A7 7 0 0 1 32 268.5 Z" fill="#0969da"/>
 <text x="50" y="266" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Asset decoders (textures, models, audio)</text>
-<text x="576" y="266" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 45 %</text>
+<text x="576" y="266" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 60 %</text>
 <line x1="24" y1="277" x2="576" y2="277" stroke="#d8dee4"/>
 <circle cx="32" cy="291.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 284.5 A7 7 0 0 1 32 298.5 Z" fill="#0969da"/>
 <text x="50" y="296" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Graphics / renderer (Direct3D 11)</text>
-<text x="576" y="296" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 30 %</text>
+<text x="576" y="296" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 65 %</text>
 <line x1="24" y1="307" x2="576" y2="307" stroke="#d8dee4"/>
 <circle cx="32" cy="321.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 314.5 A7 7 0 0 1 32 328.5 Z" fill="#0969da"/>
 <text x="50" y="326" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Driving physics &amp; kart handling</text>
-<text x="576" y="326" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 62 %</text>
+<text x="576" y="326" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 66 %</text>
 <line x1="24" y1="337" x2="576" y2="337" stroke="#d8dee4"/>
 <circle cx="32" cy="351.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 344.5 A7 7 0 0 1 32 358.5 Z" fill="#0969da"/>
 <text x="50" y="356" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Collision &amp; physics world</text>
@@ -33,7 +33,7 @@
 <line x1="24" y1="367" x2="576" y2="367" stroke="#d8dee4"/>
 <circle cx="32" cy="381.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 374.5 A7 7 0 0 1 32 388.5 Z" fill="#0969da"/>
 <text x="50" y="386" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Input (Xbox controller, keyboard)</text>
-<text x="576" y="386" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 80 %</text>
+<text x="576" y="386" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 85 %</text>
 <line x1="24" y1="397" x2="576" y2="397" stroke="#d8dee4"/>
 <circle cx="32" cy="411.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 404.5 A7 7 0 0 1 32 418.5 Z" fill="#0969da"/>
 <text x="50" y="416" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Race flow (start, countdown, laps, finish)</text>
@@ -49,23 +49,23 @@
 <line x1="24" y1="487" x2="576" y2="487" stroke="#d8dee4"/>
 <circle cx="32" cy="501.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 494.5 A7 7 0 0 1 32 508.5 Z" fill="#0969da"/>
 <text x="50" y="506" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Tracks</text>
-<text x="576" y="506" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 5 %</text>
+<text x="576" y="506" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 15 %</text>
 <line x1="24" y1="517" x2="576" y2="517" stroke="#d8dee4"/>
 <circle cx="32" cy="531.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 524.5 A7 7 0 0 1 32 538.5 Z" fill="#0969da"/>
 <text x="50" y="536" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Drivers &amp; karts</text>
-<text x="576" y="536" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 5 %</text>
+<text x="576" y="536" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 10 %</text>
 <line x1="24" y1="547" x2="576" y2="547" stroke="#d8dee4"/>
 <circle cx="32" cy="561.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 554.5 A7 7 0 0 1 32 568.5 Z" fill="#0969da"/>
 <text x="50" y="566" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">In-game audio (music, effects, voices)</text>
-<text x="576" y="566" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 5 %</text>
+<text x="576" y="566" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 10 %</text>
 <line x1="24" y1="577" x2="576" y2="577" stroke="#d8dee4"/>
 <circle cx="32" cy="591.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 584.5 A7 7 0 0 1 32 598.5 Z" fill="#0969da"/>
 <text x="50" y="596" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Menus &amp; frontend</text>
-<text x="576" y="596" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 10 %</text>
+<text x="576" y="596" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 15 %</text>
 <line x1="24" y1="607" x2="576" y2="607" stroke="#d8dee4"/>
-<circle cx="32" cy="621.5" r="7" fill="none" stroke="#656d76" stroke-width="1.5" stroke-dasharray="2.2 2.2"/>
+<circle cx="32" cy="621.5" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/><path d="M32 614.5 A7 7 0 0 1 32 628.5 Z" fill="#0969da"/>
 <text x="50" y="626" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">HUD</text>
-<text x="576" y="626" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">Planned</text>
+<text x="576" y="626" font-size="13" font-weight="400" fill="#656d76" text-anchor="end">In progress · 5 %</text>
 <line x1="24" y1="637" x2="576" y2="637" stroke="#d8dee4"/>
 <circle cx="32" cy="651.5" r="7" fill="none" stroke="#656d76" stroke-width="1.5" stroke-dasharray="2.2 2.2"/>
 <text x="50" y="656" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Game modes (Adventure, Arcade, Time Trial, Battle, multiplayer)</text>

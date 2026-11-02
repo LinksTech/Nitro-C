@@ -1,8 +1,8 @@
 # Nitro-C – Crash Nitro Kart for Windows
 
-An unofficial **PC version of Crash Nitro Kart** (PS2) for Windows, written in C++20. It is not a one-to-one console port.
+A native PC reimplementation of Crash Nitro Kart, reverse-engineered from the PS2 version. No emulation.
 
-**Driving behavior is being ported to match the original 1:1** (acceleration, braking, steering, drifting, boosts, hops and jumps, surfaces and item hits on the kart). It is rebuilt from the original game logic and checked against it; nothing about the handling is made up.
+**Driving should feel like the original** (acceleration, braking, steering, drifting, boosts, hops and jumps, surfaces and item hits on the kart). It is rebuilt from the original game logic and checked against it; nothing about the handling is made up.
 
 **Everything around the driving is built new for PC:** race flow, menus, HUD, graphics and sound, with PC-style controls (Xbox controller, keyboard) and higher resolutions.
 
@@ -15,7 +15,7 @@ The percentages are honest estimates by the developers. They are updated with ev
 <!-- PROGRESS:START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">
-  <img alt="Nitro-C progress: 28 % overall" src="assets/progress-light.svg" width="600">
+  <img alt="Nitro-C progress: 34 % overall" src="assets/progress-light.svg" width="600">
 </picture>
 
 ### Milestones
@@ -24,8 +24,11 @@ The percentages are honest estimates by the developers. They are updated with ev
 - ✅ Import and decode resources
 - ✅ Intro and PC main menu
 - ✅ Original track textured in 3D
-- ✅ Free drive with an Xbox controller on the original track
-- 🔧 Driving checked against test cases from the original code, including PS2 floating-point rounding
+- ✅ 3D free drive with the original camera and an Xbox controller
+- 🔧 Driving checked against the original code
+- ✅ Own DirectX 11 renderer with fixed simulation tick
+- ✅ Audio module (sounds, voices, music from your own ISO)
+- 🔧 All 26 tracks and 16 drivers readable from the original files
 - 🔧 First real race (start, laps, finish)
 - ⬜ Opponents on the track
 - ⬜ Weapons and items
@@ -41,20 +44,20 @@ The percentages are honest estimates by the developers. They are updated with ev
 
 | Area | Progress | % | Status |
 | --- | --- | ---: | --- |
-| ISO import & data extraction | `█████████████████░░░` | 85 % | Full extraction with checksums; GOB/GFC name resolution incomplete |
-| Asset decoders (textures, models, audio) | `█████████░░░░░░░░░░░` | 45 % | TGA, PNG, VAG, track and kart geometry; animations and many formats missing |
-| Graphics / renderer (Direct3D 11) | `██████░░░░░░░░░░░░░░` | 30 % | Provisional renderer: textured track, kart in a static pose; PC-native renderer planned |
-| Driving physics & kart handling | `████████████░░░░░░░░` | 62 % | Original driving logic ported, free drive works; boost start and landing match the original bit for bit |
-| Collision & physics world | `██████████████░░░░░░` | 70 % | Contacts, surfaces, static world |
-| Input (Xbox controller, keyboard) | `████████████████░░░░` | 80 % | XInput and keyboard |
+| ISO import & data extraction | `██████████████████░░` | 90 % | Full extraction with checksums; every archive entry found by name |
+| Asset decoders (textures, models, audio) | `████████████░░░░░░░░` | 60 % | Textures, track and kart geometry, blend modes, original fonts, camera data, driver skeletons and animation clips, all sounds, voices and music; several formats still missing |
+| Graphics / renderer (Direct3D 11) | `█████████████░░░░░░░` | 65 % | Own DirectX 11 renderer: 3D free drive with the original chase camera, track, kart, 2D text in the original font, window/fullscreen/VSync, fixed simulation tick; particles, LOD and camera collision missing |
+| Driving physics & kart handling | `█████████████░░░░░░░` | 66 % | Original driving logic rebuilt and checked against the original code; free drive feels like the original. Known open issue: falling through the ground after some landings (fix in progress) |
+| Collision & physics world | `██████████████░░░░░░` | 70 % | Contacts, surfaces, static world; collision data of all 26 tracks readable, rotated track parts in progress |
+| Input (Xbox controller, keyboard) | `█████████████████░░░` | 85 % | Xbox controller (all controller slots) and keyboard through one input path, on-screen input diagnostics |
 | Race flow (start, countdown, laps, finish) | `███░░░░░░░░░░░░░░░░░` | 15 % | Individual pieces exist; the race flow will be built PC-native |
 | Opponent AI | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
 | Weapons & items | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
-| Tracks | `█░░░░░░░░░░░░░░░░░░░` | 5 % | One track (Earth1) loads |
-| Drivers & karts | `█░░░░░░░░░░░░░░░░░░░` | 5 % | One kart loads |
-| In-game audio (music, effects, voices) | `█░░░░░░░░░░░░░░░░░░░` | 5 % | Intro audio only |
-| Menus & frontend | `██░░░░░░░░░░░░░░░░░░` | 10 % | Intro and a provisional PC main menu; PC-native menus planned |
-| HUD | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
+| Tracks | `███░░░░░░░░░░░░░░░░░` | 15 % | Collision of all 26 tracks read from the original files; Earth1 drivable, other tracks not yet loadable in game |
+| Drivers & karts | `██░░░░░░░░░░░░░░░░░░` | 10 % | Driver to kart mapping and driving data of all 16 drivers read from the original files; one kart drivable |
+| In-game audio (music, effects, voices) | `██░░░░░░░░░░░░░░░░░░` | 10 % | Audio module plays every sound, voice and music track from your own ISO in a sound test; not yet hooked into the game |
+| Menus & frontend | `███░░░░░░░░░░░░░░░░░` | 15 % | The game's own menu scripts are interpreted on PC; main menu shows, path to race start in progress |
+| HUD | `█░░░░░░░░░░░░░░░░░░░` | 5 % | 2D layer with the original font exists; no real HUD yet |
 | Game modes (Adventure, Arcade, Time Trial, Battle, multiplayer) | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
 | Save data & options | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
 | User setup & release | `░░░░░░░░░░░░░░░░░░░░` | 0 % | Importing data from your own ISO is not automated yet |
@@ -71,7 +74,7 @@ Game data is imported from your own ISO into a local folder on your machine and 
 ## How the port works
 
 - **Not an emulator:** No PS2 code is executed. The original kart and driving logic is analyzed and rewritten as native C++.
-- **Verifiably faithful driving:** The driving code is tested against cases taken from the original code, down to the PS2's own floating-point rounding, so results can match bit for bit.
+- **Faithful driving:** The driving code is tested against the original game's own logic, including the PS2's floating-point rounding, so it feels like the original.
 - **PC-native everything else:** Race flow, menus, HUD, rendering and audio are designed new for PC instead of copying the console's way of doing them.
 - **Local data only:** The ISO, extracted files and analysis reports stay on your machine and are excluded from version control.
 
