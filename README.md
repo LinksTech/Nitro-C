@@ -39,29 +39,6 @@ The percentages are honest estimates by the developers. They are updated with ev
 
 ✅ done · 🔧 in progress · ⬜ open
 
-<details>
-<summary>Details per area</summary>
-
-| Area | Progress | % | Status |
-| --- | --- | ---: | --- |
-| ISO import & data extraction | `██████████████████░░` | 90 % | Full extraction with checksums; every archive entry found by name |
-| Asset decoders (textures, models, audio) | `████████████░░░░░░░░` | 60 % | Textures, track and kart geometry, blend modes, original fonts, camera data, driver skeletons and animation clips, all sounds, voices and music; several formats still missing |
-| Graphics / renderer (Direct3D 11) | `█████████████░░░░░░░` | 65 % | Own DirectX 11 renderer: 3D free drive with the original chase camera, track, kart, 2D text in the original font, window/fullscreen/VSync, fixed simulation tick; particles, LOD and camera collision missing |
-| Driving physics & kart handling | `█████████████░░░░░░░` | 66 % | Original driving logic rebuilt and checked against the original code; free drive feels like the original. Known open issue: falling through the ground after some landings (fix in progress) |
-| Collision & physics world | `██████████████░░░░░░` | 70 % | Contacts, surfaces, static world; collision data of all 26 tracks readable, rotated track parts in progress |
-| Input (Xbox controller, keyboard) | `█████████████████░░░` | 85 % | Xbox controller (all controller slots) and keyboard through one input path, on-screen input diagnostics |
-| Race flow (start, countdown, laps, finish) | `███░░░░░░░░░░░░░░░░░` | 15 % | Individual pieces exist; the race flow will be built PC-native |
-| Opponent AI | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
-| Weapons & items | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
-| Tracks | `███░░░░░░░░░░░░░░░░░` | 15 % | Collision of all 26 tracks read from the original files; Earth1 drivable, other tracks not yet loadable in game |
-| Drivers & karts | `██░░░░░░░░░░░░░░░░░░` | 10 % | Driver to kart mapping and driving data of all 16 drivers read from the original files; one kart drivable |
-| In-game audio (music, effects, voices) | `██░░░░░░░░░░░░░░░░░░` | 10 % | Audio module plays every sound, voice and music track from your own ISO in a sound test; not yet hooked into the game |
-| Menus & frontend | `███░░░░░░░░░░░░░░░░░` | 15 % | The game's own menu scripts are interpreted on PC; main menu shows, path to race start in progress |
-| HUD | `█░░░░░░░░░░░░░░░░░░░` | 5 % | 2D layer with the original font exists; no real HUD yet |
-| Game modes (Adventure, Arcade, Time Trial, Battle, multiplayer) | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
-| Save data & options | `░░░░░░░░░░░░░░░░░░░░` | 0 % |  |
-| User setup & release | `░░░░░░░░░░░░░░░░░░░░` | 0 % | Importing data from your own ISO is not automated yet |
-
 </details>
 <!-- PROGRESS:END -->
 
