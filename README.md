@@ -14,8 +14,8 @@ How the number is computed: the overall value is the weighted average of 17 area
 
 <!-- PROGRESS:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">
-  <img alt="Nitro-C progress: 34 % overall" src="assets/progress-light.svg" width="600">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg?v=2026-11-03">
+  <img alt="Nitro-C progress: 34 % overall" src="assets/progress-light.svg?v=2026-11-03" width="600">
 </picture>
 
 ### Milestones
