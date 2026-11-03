@@ -10,7 +10,7 @@ A native PC reimplementation of Crash Nitro Kart, reverse-engineered from the PS
 
 ## Progress
 
-The percentages are honest estimates by the developers. They are updated with every major step, so you can follow here what already works and what is still missing.
+How the number is computed: the overall value is the weighted average of 17 areas. For the areas *Tracks* and *Drivers & karts* it is the sum of fixed sub-goals that are fully met (for example "collision of all 26 tracks readable"); a sub-goal that holds only for some tracks or drivers counts 0 until it holds for all. The other areas do not have such a breakdown yet; their values are unchanged since the last update and are raised only when a countable sub-goal is met. When in doubt, the lower number is used.
 
 <!-- PROGRESS:START -->
 <picture>
@@ -39,7 +39,17 @@ The percentages are honest estimates by the developers. They are updated with ev
 
 ✅ done · 🔧 in progress · ⬜ open
 
-</details>
+### Current state (2026-11-03)
+
+- **Tracks:** 7 of 13 race tracks load in the game. On Earth1 the complete scene is now loaded and drawn (all geometry, textures and the sky); water, lava and transparency effects are still missing.
+- **Graphics:** untextured geometry (for example the sky) now has its original colours; boost pads lie flat on the road.
+- **Title screen:** pressing START unlocks at the same moment as in the original; the story intro that follows in the original is not built yet.
+- **Menus:** the keyboard works in the menus (arrow keys, Enter, Backspace/Esc).
+- **Driving:** the wall response and the stand-still timer were corrected to match the original code in the places identified so far; the physics step rate (59.94 Hz, one step per frame) is proven to match the original.
+- **Weapons & items:** research is finished and a build plan exists; nothing is built yet.
+- **Checks:** 2,878 automatic driving checks and an automated test driver on Earth1 pass.
+
+**Known gaps:** opponents (AI) are not active yet; anti-gravity sections are not finished; driver and kart animations are missing; weapons and items are not built; 6 race tracks do not load yet.
 <!-- PROGRESS:END -->
 
 ## Source code
