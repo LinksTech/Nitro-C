@@ -2,11 +2,18 @@
 
 Nitro-C is an unofficial, native Windows x64 port of Crash Nitro Kart, based on the **Xbox version**. Not an emulator.
 
-- **C++20, custom engine built on DirectX 12.**
+- **C++, custom engine built on DirectX 12.**
 - **Goal: driving that feels 1:1 like the original.** Acceleration, steering, drifting, boosts, hopping, landing, surfaces and collisions follow the original game logic and are verified against it step by step. Nothing about the handling is guessed.
 - **Everything else PC-native:** borderless fullscreen, widescreen and ultrawide without stretching, modern controls for controller and keyboard.
 - **Clean room:** the game logic is understood through reverse engineering, documented and rewritten. No original code is part of the project.
 - **Own physics instead of Havok:** the original Havok physics is replaced by our own implementation, built to behave the same way.
+
+No plants were harmed during
+the making of this port...
+
+the water went straight to
+Anthropic's data centers so the
+plants simply don't exist ;)
 
 ## Progress
 
