@@ -8,10 +8,9 @@ Nitro-C is an unofficial, native Windows x64 port of Crash Nitro Kart, based on 
 - **Clean room:** the game logic is understood through reverse engineering, documented and rewritten. No original code is part of the project.
 - **Own physics instead of Havok:** the original Havok physics is replaced by our own implementation, built to behave the same way.
 
-No plants were harmed during the making of this port...
-the water went straight to Anthropic's data centers so the
-plants simply don't exist  
-¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯
+> [!NOTE]
+> No plants were harmed during the making of this port...  
+> the water went straight to Anthropic's data centers so the plants simply don't exist. 🌱
 
 ## Progress
 
