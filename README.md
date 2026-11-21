@@ -12,7 +12,7 @@ No plants were harmed during
 the making of this port...
 
 the water went straight to Anthropic's data centers so the
-plants simply don't exist ¯\_(ツ)_/¯
+plants simply don't exist  ¯\_(ツ)_/¯
 
 ## Progress
 
